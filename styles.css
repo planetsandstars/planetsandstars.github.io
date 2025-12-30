@@ -1,4 +1,19 @@
+/* importing fonts from files*/
+@font-face {
+  font-family: Zine; 
+  src: url(./Punk Typewriter.otf);
+}
+@font-face {
+  font-family: Bubble; 
+  src: url(./Salt Pet Non Eroded.ttf);
+}
+@font-face {
+  font-family: typewriter;
+  src: url(./Punk Typewriter.otf);
+}
 
+
+/* different backgrounds and style pairings*/
 .Pink {
   background-color: rgb(242 121 208);
   h1:
@@ -11,10 +26,12 @@
   h1:
   p:
 
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
+  }
+
+.Blue {
+  background-color: rgb(121 208 242);
+  h1:
+  p:
+
+  }
+
