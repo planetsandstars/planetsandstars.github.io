@@ -1,0 +1,66 @@
+/* importing fonts from files*/
+
+/*pixel punk REGULAR----------------*/
+@font-face {
+  font-family: Punk; 
+  src: url(./Pixelpunk.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*pixel punk ITALIC*/
+@font-face {
+  font-family: Punk; 
+  src: url(./Pixelpunk_ital.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+/*pixel punk BOLD ITALIC*/
+@font-face {
+  font-family: Punk; 
+  src: url(./Pixelpunk_boldital.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+/*pixel punk BOLD*/
+@font-face {
+  font-family: Punk; 
+  src: url(./Pixelpunk_bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+/*---------------------------------------*/
+
+@font-face {
+  font-family: Reg; 
+  src: url(./Pix32.ttf);
+}
+
+/*---------------------------------------*/
+
+@font-face {
+  font-family: Barcode; 
+  src: url(./Pixelary.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*---------------------------------------*/
+
+
+/* different backgrounds and style pairings*/
+.WindowsBlue {
+  background-color: rgb(0, 0, 128);
+  color: rgb(255, 255, 255); /*font color*/
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Barcode";
+  font-weight: bold;
+}
+
+p {
+  font-family: "Reg";
+}
+
+
