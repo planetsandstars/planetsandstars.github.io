@@ -54,17 +54,15 @@
   }
 
 /*makes headers and titles Awesome*/
-}
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Barcode";
-  font-weight: bold;
+  font-family: Barcode;
+  font-weight: normal;
 }
 
-/*sets normal font for everything else*/
 p {
-  font-family: "Reg";
+  font-family: Reg;
 }
+
 
 /*centers information by div*/
 div {
