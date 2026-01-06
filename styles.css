@@ -47,6 +47,21 @@
 
 /*---------------------------------------*/
 
+/*makes headers and titles Awesome*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Barcode";
+  font-weight: bold;
+}
+
+/*sets normal font for everything else*/
+p {
+  font-family: "Reg";
+}
+
+/*---------------------------------------*/
+
 
 /* different backgrounds and style pairings*/
 .WindowsBlue {
@@ -54,13 +69,13 @@
   color: rgb(255, 255, 255); /*font color*/
   }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Barcode";
-  font-weight: bold;
+/*centers information by div*/
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
-p {
-  font-family: "Reg";
-}
 
 
