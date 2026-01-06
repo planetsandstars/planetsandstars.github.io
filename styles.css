@@ -47,11 +47,17 @@
 
 /*---------------------------------------*/
 
+/* different backgrounds and style pairings*/
+.WindowsBlue {
+  background-color: rgb(0, 0, 128);
+  color: rgb(255, 255, 255); /*font color*/
+  }
+
 /*makes headers and titles Awesome*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Barcode";
+  font-family: "Barcode";
   font-weight: bold;
 }
 
@@ -59,15 +65,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: "Reg";
 }
-
-/*---------------------------------------*/
-
-
-/* different backgrounds and style pairings*/
-.WindowsBlue {
-  background-color: rgb(0, 0, 128);
-  color: rgb(255, 255, 255); /*font color*/
-  }
 
 /*centers information by div*/
 div {
