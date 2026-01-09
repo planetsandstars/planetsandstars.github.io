@@ -78,7 +78,10 @@ p {
   padding: 1rem;
 }
 
+a:link {
+  background-color: RGB (255, 255, 0);
+}
 
-
-
-
+a:visited {
+  background-color: RGB (255, 215, 87);
+}
