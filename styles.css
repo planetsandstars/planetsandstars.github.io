@@ -79,9 +79,9 @@ p {
 }
 
 a:link {
-  background-color: RGB (255, 255, 0);
+  color: RGB (255, 255, 0);
 }
 
 a:visited {
-  background-color: RGB (255, 215, 87);
+  color: RGB (255, 215, 87);
 }
