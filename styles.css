@@ -60,7 +60,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 4rem, 3rem, 2rem, 2rem, 2rem, 2rem;
 }
 
-p {
+/*changing font for "paragraphs" AND links so everything is more consistent*/
+p, a {
   font-family: Reg;
 }
 
@@ -80,6 +81,7 @@ p {
 }
 
 /*for making certain links more visible*/
+/*im thinking of adding more color variations for cutesy reasons, but doesn't Need to be done*/
 .button {
   background-color: rgb(255, 255, 0);
   color: black;
@@ -101,3 +103,5 @@ p {
   color: yellow;
   
 }
+
+
