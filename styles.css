@@ -38,11 +38,13 @@
 
 /*---------------------------------------*/
 
+
 @font-face {
-  font-family: Barcode; 
-  src: url(./Pixelary.otf);
-  font-weight: bold;
+  font-family: "Barcode";
+  src: url("./Pixelary.otf") format("opentype");
+  font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 /*---------------------------------------*/
@@ -66,7 +68,7 @@ h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Barcode;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 
