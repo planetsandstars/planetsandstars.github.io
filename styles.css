@@ -90,12 +90,17 @@ a {
   align-items: center;
 }
 
+.row {
+  display: flex;
+  align-items: center;   
+  gap: 2rem;
+}
+
 .left-center {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
 
 .container {
   max-width: 900px;
