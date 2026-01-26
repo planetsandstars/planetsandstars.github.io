@@ -90,17 +90,24 @@ a {
   align-items: center;
 }
 
-.row {
-  display: flex;
-  align-items: center;   
-  gap: 2rem;
-}
-
 .left-center {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
+
+/*special stuff for the about page, but potentially reuseable*/
+.about-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;          
+}
+
+.about-row h2,
+.about-row p {
+  margin: 0;       
+}
+/*---------------------------------------*/
 
 .container {
   max-width: 900px;
