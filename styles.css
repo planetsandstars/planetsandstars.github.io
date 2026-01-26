@@ -90,6 +90,12 @@ a {
   align-items: center;
 }
 
+.left-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 
 .container {
   max-width: 900px;
