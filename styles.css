@@ -121,4 +121,10 @@ a.button:visited {
   
 }
 
+/*back arrow adjustments*/
+.red {
+  color: red;
+  text-decoration: none;
+}
+
 
