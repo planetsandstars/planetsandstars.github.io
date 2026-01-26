@@ -54,17 +54,19 @@
   }
 
 /*makes headers and titles Awesome*/
-h1 { 
-  font-family: Barcode;
+h1 {
   font-size: 4rem; 
 }
 h2 { 
-  font-family: Barcode;
   font-size: 3rem; 
 }
 h3, h4, h5, h6 {
-  font-family: Barcode;
   font-size: 2rem; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Barcode;
+  font-weight: bold;
 }
 
 
@@ -95,7 +97,7 @@ a {
 
 /*for making certain links more visible*/
 /*im thinking of adding more color variations for cutesy reasons, but doesn't Need to be done*/
-.button {
+a.button {
   background-color: rgb(255, 255, 0);
   color: black;
   padding: 14px 25px;
@@ -106,12 +108,12 @@ a {
   display: inline-block;
 }
 
-.button:hover {
+a.button:hover {
   background-color: pink;
 
 }
 
-.button:visited {
+a.button:visited {
   background-color: pink;
   color: yellow;
   
