@@ -54,16 +54,20 @@
   }
 
 /*makes headers and titles Awesome*/
-h1, h2, h3, h4, h5, h6 {
-  font-family: Barcode;
-  font-weight: normal;
-  font-size: 4rem, 3rem, 2rem, 2rem, 2rem, 2rem;
-}
+h1 { font-size: 4rem; }
+h2 { font-size: 3rem; }
+h3, h4, h5, h6 { font-size: 2rem; }
+
 
 /*changing font for "paragraphs" AND links so everything is more consistent*/
-p, p a {
+p {
   font-family: Reg;
 }
+
+a {
+  font-family: Reg;
+}
+  
 
 
 /*centers information by div*/
