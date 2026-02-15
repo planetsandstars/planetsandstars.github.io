@@ -139,6 +139,13 @@ a.button:visited {
   
 }
 
+/*for the secret home page connection stuff*/
+h1 a {
+  font-family: inherit;  
+  color: inherit;
+  text-decoration: none;
+}
+
 /*back arrow adjustments*/
 .red {
   color: red;
